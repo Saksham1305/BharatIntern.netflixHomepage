@@ -1,0 +1,216 @@
+* {
+    text-transform: capitalize;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body {
+    background-color: rgb(40 41 42);
+}
+
+.first-section {
+
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(270deg, rgba(41, 38, 30, 0.8), rgba(0, 0, 0, 0.8)), url('https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_large.jpg')
+}
+
+.first-section-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.center-info {
+    padding: 120px 50px;
+
+
+}
+
+
+.select-icon {
+    margin: 30px 0;
+
+}
+
+.select-items {
+    border: 2px solid black;
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.center-info p {
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.center-info h6 {
+    font-size: 19px;
+    margin: 10px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.input-box input {
+    width: 25%;
+    /* outline: none; */
+    border: 1px solid;
+    padding: 10px;
+    background-color: transparent
+}
+
+.input-box button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 2px;
+    background-color: #e50914;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.second-section {
+    background-color: black;
+    color: white;
+    margin: 15px 0px;
+    padding: 50px 0;
+}
+
+.second-container {
+    margin: 0px 60px;
+}
+
+.mycol {
+    margin-top: 70px;
+}
+
+.mycol h1 {
+    font-size: 40px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.mycol h4 {
+    font-size: 20px;
+    margin: 40px 0px;
+
+}
+
+.image1 {
+    width: 400px;
+
+    position: absolute;
+    top: 740px;
+    left: 800px;
+
+}
+
+.image2 {
+    width: 500px;
+
+    position: absolute;
+    top: 1950px;
+    left: 620px;
+
+}
+
+.video-container {
+
+    width: 100%;
+    margin: 100px 210px;
+    max-width: 54%;
+    max-height: 50%;
+
+}
+
+.video2 {
+
+    width: 100%;
+    margin: 50px 30px;
+    max-width: 65%;
+    max-height: 55%;
+
+}
+
+.card {
+    background-color: transparent !important;
+    border: 1px solid white;
+    margin: 10px 40px;
+
+}
+
+.content {
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.content p {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: lighter !important;
+    color: blue;
+}
+
+.dropdown-container {
+    margin: 0px 180px;
+    background-color: #2d2d2d;
+}
+
+.dropdown-button {
+    background-color: transparent;
+text-transform: capitalize;
+font-weight: bolder;
+font-size: 25px;
+
+    color: white;
+    border: 2px solid white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #2d2d2d;
+    margin: 30px 20px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+.dropdown-content p{
+    margin: 20px 50px;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+.sub-footer{
+    padding: 80px 50px;
+}
+li{
+    list-style: none;
+  text-decoration: dashed !important;
+}
